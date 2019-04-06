@@ -10,4 +10,19 @@ So ,here I have started to note down them , in the hope that it is useful to oth
 
 So feel free to go through them and use in your applications as needed.
 
+# Resources 
+
+#### Split CSV Files along with Header 
+
+A [simple script](resources/split_csvfiles_with_headers.sh) that helps in splitting a large csv into multiple files retaining the header if provided. 
+
+```bash
+
+ Usage :  split_csvfiles_with_headers.sh -h -i <InputFile> -p <Prefix> -l <No of Lines>
+
+         Example : split_csvfiles_with_headers.sh -h -i test.csv -p part_ -l 50
+         
+``` 
+
+
 
